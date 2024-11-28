@@ -5,6 +5,10 @@ export class Exam {
     this.answer = answer;
     this.exams = [];
   }
+
+
+
+  
   add(exam) {
     exam.grade = Object.keys(exam.values).reduce((total, q) => {
       return (
